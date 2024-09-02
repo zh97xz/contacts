@@ -24,10 +24,13 @@ int main()
 			AddContact(&con);
 			break;
 		case 2:
+			DelContact(&con);
 			break;
 		case 3:
+			SearchContact(&con);
 			break;
 		case 4:
+			ModifyContact(&con);
 			break;
 		case 5:
 			ShowContact(&con);

@@ -20,6 +20,10 @@ struct contact
 	int size;
 };
 
+int Findbyname(struct contact* ps, char name[max]);
 void Initcon(struct contact* ps);
 void AddContact(struct contact* ps);
 void ShowContact(struct contact* ps);
+void DelContact(struct contact*ps);
+void SearchContact(struct contact*ps);
+void ModifyContact(struct contact*ps);
